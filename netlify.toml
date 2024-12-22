@@ -3,7 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.83.1"
+  HUGO_VERSION = "0.136.5"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
@@ -18,4 +18,8 @@
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
+<<<<<<< HEAD
     debug = true
+=======
+    debug = true
+>>>>>>> bab5c90df770bea952d3303221a962b36a34cb96
