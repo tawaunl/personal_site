@@ -18,8 +18,3 @@
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
-<<<<<<< HEAD
-    debug = true
-=======
-    debug = true
->>>>>>> bab5c90df770bea952d3303221a962b36a34cb96
