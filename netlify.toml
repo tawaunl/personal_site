@@ -19,27 +19,3 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
-
-[[redirects]]
-  from = "https://shilaan.netlify.app/*"
-  to = "https://shilaan.com/:splat"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "http://shilaan.netlify.app/*"
-  to = "https://shilaan.com/:splat"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "http://shilaan.rbind.io/*"
-  to = "https://shilaan.com/:splat"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "https://shilaan.rbind.io/*"
-  to = "https://shilaan.com/:splat"
-  status = 301
-  force = true
