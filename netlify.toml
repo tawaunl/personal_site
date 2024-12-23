@@ -22,24 +22,13 @@
 
 [[redirects]]
   from = "https://tawaun.netlify.app/*"
-  to = "https://shilaan.com/:splat"
+  to = "https://tawaunlucas.com/:splat"
   status = 301
   force = true
   
 [[redirects]]
   from = "http://tawaun.netlify.app/*"
-  to = "https://shilaan.com/:splat"
+  to = "https://tawaunlucas.com/:splat"
   status = 301
   force = true
   
-[[redirects]]
-  from = "http://tawaun.rbind.io/*"
-  to = "https://shilaan.com/:splat"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "https://tawaun.rbind.io/*"
-  to = "https://shilaan.com/:splat"
-  status = 301
-  force = true
