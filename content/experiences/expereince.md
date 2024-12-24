@@ -3,12 +3,12 @@ widget: experience
 active: true
 
 # This file represents a page section.
-headless: true
+headless: false
 
 # Order that this section appears on the page.
-weight: 40
+weight: 10
 
-title: Experience
+title: Experiences
 subtitle:
 
 # Date format for experience
@@ -47,3 +47,4 @@ experience:
 design:
   columns: '2'
 ---
+## hi
