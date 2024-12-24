@@ -29,15 +29,13 @@ content:
     publication_type: ''
     author: ''
     include_featured: true
+    featured_only: true
 design:
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 5
+  view: 2
 ---
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
