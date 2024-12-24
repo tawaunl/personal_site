@@ -1,6 +1,6 @@
 {{- define "main" -}}
 
-{{ partials "page_header.html" . }}
+{{ partial "page_header.html" . }}
 
 <div class="universal-wrapper">
   <div class="row">
@@ -19,11 +19,11 @@
 
           {{ range .Pages }}
             {{ if eq $.Params.view 1 }}
-              {{ partials "li_list" . }}
+              {{ partial "li_list" . }}
             {{ else if eq $.Params.view 3 }}
-              {{ partials "li_card" . }}
+              {{ partial "li_card" . }}
             {{ else }}
-              {{ partials "li_compact" . }}
+              {{ partial "li_compact" . }}
             {{ end }}
           {{ end }}
 
