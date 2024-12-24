@@ -1,4 +1,6 @@
 ---
+# An instance of the Experience widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
 active: true
 
@@ -8,7 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-
+title: Experience
+subtitle:
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
