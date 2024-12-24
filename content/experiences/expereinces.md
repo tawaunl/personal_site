@@ -3,13 +3,12 @@ widget: experience
 active: true
 
 # This file represents a page section.
-headless: false
+headless: true
 
 # Order that this section appears on the page.
 weight: 10
 
-title: Experiences
-subtitle:
+
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -47,4 +46,3 @@ experience:
 design:
   columns: '2'
 ---
-## hi
