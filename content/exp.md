@@ -185,34 +185,39 @@ design:
 </div>
 
 ------------------------------------------------------------
+<br>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Skills</title>
+    <title>Skills Overview</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             min-height: 100vh;
-            flex-direction: column;
         }
         h1 {
-            text-align: center; /* Center the title */
-            font-weight: bold; /* Make the title bold */
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .skills-container {
+            width: 100%;
+            max-width: 800px;
         }
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 5px;
-            justify-items: center;
-            max-width: 600px;
+            grid-template-columns: repeat(3, 1fr); /* Ensure consistent columns */
+            gap: 20px;
+            justify-items: center; /* Center items within each grid */
+            margin: -50 auto;
         }
         .skill {
             display: flex;
@@ -227,7 +232,7 @@ design:
             border-radius: 50%;
             background-color: #e0e0e0;
             overflow: hidden;
-            --fill-scale: 0; /* Default fill scale */
+            --fill-scale: 0;
         }
         .circle .fill {
             position: absolute;
@@ -235,7 +240,7 @@ design:
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #035AA6;
+            background-color: #4caf50;
             transform-origin: bottom;
             transform: scaleY(var(--fill-scale));
             transition: transform 0.3s;
@@ -244,27 +249,26 @@ design:
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: -40px;
+            margin-top: 10px;
             font-size: 16px;
             font-weight: bold;
         }
         .skill-name img {
-            max-width: 250px; /* Optional: set a max size to keep images from being too large */
+            max-width: 250px;
             max-height: 250px;
-            margin-right: 10px;
-        }
+            margin-bottom: -5px;
         }
     </style>
 </head>
 <body>
-    <h1>Programming Skills</h1>
+<h1>Programming Skills</h1>
     <div class="skills-grid">
         <div class="skill">
             <div class="circle" style="--fill-scale: 1.0;">
                 <div class="fill"></div>
             </div>
             <div class="skill-name">
-                <img src= "R_logo.png" width="80"  alt="R Logo">
+                <img src= "R_logo.png" width="100px"  alt="R Logo">
             </div>
         </div>
         <div class="skill">
@@ -272,7 +276,7 @@ design:
                 <div class="fill"></div>
             </div>
             <div class="skill-name">
-                <img src="unix.jpg" alt="Unix Logo" width="100px" >
+                <img src="unix.png" alt="Unix Logo" width="60px" >
             </div>
         </div>
         <div class="skill">
@@ -280,9 +284,42 @@ design:
                 <div class="fill"></div>
             </div>
             <div class="skill-name">
-                <img src="python_logo.png" width="50" alt="Java Logo">
+                <img src="python_logo_new.png" width="70" alt="python Logo">
             </div>
         </div>
+        </div>
+    </div>
+
+  <h1>Technical Skills</h1>
+        <div class="skills-grid">
+            <div class="skill">
+                <div class="circle" style="--fill-scale: 0.9;">
+                    <div class="fill"></div>
+                </div>
+                <div class="skill-name">
+                    <img src="pipette.svg" width="80px" alt="pipette image">
+                    Cell and Molecular Aprroaches, including spatial
+                </div>
+            </div>
+            <div class="skill">
+                <div class="circle" style="--fill-scale: 0.9;">
+                    <div class="fill"></div>
+                </div>
+                <div class="skill-name">
+                    <img src="microscope-icon.png" width=
+                    "70" alt="microscope image">
+                    <br>Microscopy
+                </div>
+            </div>
+            <div class="skill">
+                <div class="circle" style="--fill-scale: 0.6;">
+                    <div class="fill"></div>
+                </div>
+                <div class="skill-name">
+                    <img src="stats.svg" width="70" alt="AWS Logo">
+                    Machine Learning and Ai/Statistics
+                </div>
+            </div>
         </div>
     </div>
 </body>
