@@ -235,7 +235,7 @@ design:
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #4caf50;
+            background-color: #035AA6;
             transform-origin: bottom;
             transform: scaleY(var(--fill-scale));
             transition: transform 0.3s;
