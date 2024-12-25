@@ -46,14 +46,14 @@ permalinks:
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
-  section: [HTML, RSS]
+  section: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: true
   highlight:
-    codeFences: false
+    codeFences: true
   tableOfContents:
     startLevel: 2
     endLevel: 3
