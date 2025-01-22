@@ -17,7 +17,9 @@ local_business_type: ''
 org_name: ''
 description: 'Tawaun Lucas personal website'
 twitter: 'https://twitter.com/LucasTawaun'
-
+marketing:
+  verification:
+    google: 'google-site-verification=Jus02-qCpeMgmm8ES9JcexlKiJ_cSZgz9B87C39Ox1s'
 # Contact (edit or remove options as required)
 
 email: lucas.tawaun@gene.com
