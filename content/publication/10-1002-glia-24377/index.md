@@ -41,4 +41,5 @@ abstract: Neuroinflammation is a hallmark of ischemic stroke, which is a leading
   Microglia and astrocytes adopt an inflammatory profile by 4 h after stroke. By 3
   days, microglia shift to a proliferative state while astrocytes remain pro‐inflammatory.
   Data are available on a user‐friendly, searchable ShinyApp website.
+summary: A comprehensive analysis of microglia and astrocytes in the sub-acute period after stroke using Ribo-seq.
 ---
