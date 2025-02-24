@@ -33,7 +33,7 @@ design:
 
 <center> 
 
-<i class="fa fa-calendar" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "https://app.usemotion.com/meet/tawaun-lucas/meeting" "newtab" >}}Schedule a meeting with me{{< /staticref >}} 
+<i class="fa fa-calendar" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "booking" "newtab" >}}Schedule a meeting with me{{< /staticref >}} 
 
 </center>
 

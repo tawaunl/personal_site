@@ -13,15 +13,19 @@ main:
   - name: <p style="font-size:24px"> Experience & Skills
     url: 'exp'
     weight: 20
+  - name: <p style="font-size:24px"> Book Me
+    url: "booking"
+    weight: 45
 #  - name: Talks
 #    url: 'talks/'
 #    weight: 30
   - name: <p style="font-size:24px"> CV
-    url: "cv/TawaunLucasCV_FULL.pdf"
+    url: "cv"
     weight: 40
   - name: <p style="font-size:24px"> Fitness
     url: "https://pro.everfit.io/tawaun-lucas"
     weight: 100
+
 #  - name: File Drawer
 #    url: filedrawer/
 #    weight: 30 # keep as draft before committing

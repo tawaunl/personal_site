@@ -6,11 +6,13 @@ code {
   color: #035AA6;
   // background-color: rgb(68, 71, 90);
   font-family: papyrus;
+  component-active-color:#035AA6;
 }
 
 ul.check-mark-list   { /*choose your own descriptive class name. */
     list-style-type: none;   /* remove the default list bullet */
 }
+
 
 ul.check-mark-list > li:before {
    content: "\f14a";  /* put the fontawesome unicode here preceded by slash */
