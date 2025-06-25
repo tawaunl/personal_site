@@ -22,9 +22,9 @@ main:
   - name: <p style="font-size:24px"> CV
     url: "cv"
     weight: 40
-  - name: <p style="font-size:24px"> Fitness
-    url: "https://pro.everfit.io/tawaun-lucas"
-    weight: 100
+  # - name: <p style="font-size:24px"> Fitness
+  #   url: "https://pro.everfit.io/tawaun-lucas"
+  #   weight: 100
 
 #  - name: File Drawer
 #    url: filedrawer/
