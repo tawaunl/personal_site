@@ -25,7 +25,6 @@ authors:
 - Lisa McGinnis
 - Linna Peng
 - Stephen Ra
-
 - Gabriele Scalia
 - Avtar Singh
 - Liming Tao
@@ -42,7 +41,19 @@ publishDate:
 publication_types: '3'
 publication: '*bioRxiv*'
 doi: 10.1101/2025.04.03.646459
-abstract: Advances in AI are transforming scientific discovery, yet spatial biology, a field that deciphers the molecular organization within tissues, remains constrained by labor-intensive workflows. Here, we present SpatialAgent, a fully autonomous AI agent dedicated for spatial-biology research. SpatialAgent integrates large language models with dynamic tool execution and adaptive reasoning. SpatialAgent spans the entire research pipeline, from experimental design to multimodal data analysis and hypothesis generation. Tested on multiple datasets comprising two million cells from human brain, heart, and a mouse colon colitis model, SpatialAgent’s performance surpassed the best computational methods, matched or outperformed human scientists across key tasks, and scaled across tissues and species. By combining autonomy with human collaboration, SpatialAgent establishes a new paradigm for AI-driven discovery in spatial biology
+abstract: |
+  Advances in AI are transforming scientific discovery, yet spatial biology,
+  a field that deciphers the molecular organization within tissues, remains
+  constrained by labor-intensive workflows. Here, we present SpatialAgent,
+  a fully autonomous AI agent dedicated for spatial-biology research. SpatialAgent
+  integrates large language models with dynamic tool execution and adaptive reasoning.
+  SpatialAgent spans the entire research pipeline, from experimental design to
+  multimodal data analysis and hypothesis generation. Tested on multiple datasets
+  comprising two million cells from human brain, heart, and a mouse colon colitis model,
+  SpatialAgent’s performance surpassed the best computational methods, matched or
+  outperformed human scientists across key tasks, and scaled across tissues and
+  species. By combining autonomy with human collaboration, SpatialAgent establishes
+  a new paradigm for AI-driven discovery in spatial biology.
 
 # Summary. An optional shortened abstract.
 summary: SpatialAgent establishes a new paradigm for AI-driven discovery in spatial biology.
@@ -52,6 +63,7 @@ tags:
 - Agentic AI
 - LLM
 - RNAseq
+- AI
 
 featured: true
 ---
