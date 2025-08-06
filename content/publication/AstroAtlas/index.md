@@ -9,9 +9,9 @@ authors:
 - Yuanyuan Wang
 - Benjamin I. Laufer
 - Dwight Newton
-- Shristi. Pandey
-- Michelle. G. Webb
-- Nikolas. Jorstad
+- Shristi Pandey
+- Michelle G. Webb
+- Nikolas Jorstad
 - Brad A. Friedman
 - Jesse E. Hanson
 - Joshua S. Kaminker

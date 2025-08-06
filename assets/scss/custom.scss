@@ -13,13 +13,13 @@ code {
   font-weight: bold;
 
   // Apply red color to the outer span if no <a> inside (failsafe)
-  color: red !important;
+  color: black !important;
 
   // Apply red color directly to the link inside the span
   a {
-    color: red !important;
+    color: black !important;
     font-weight: bold !important;
-    text-decoration: none !important; // optional: removes underline
+    text-decoration: underline !important; // optional: removes underline
   }
 
   // Optional: red on hover too

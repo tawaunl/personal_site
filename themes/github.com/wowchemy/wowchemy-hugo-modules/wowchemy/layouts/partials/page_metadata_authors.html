@@ -5,15 +5,15 @@
   {{ range $index, $value := (.GetTerms $taxonomy) }}
     {{- /* Highlight the author's name? */ -}}
     {{- $highlight_name := .Page.Params.highlight_name | default false -}}
+    {{- $my_name := site.Params.author.name | default "Tawaun A. Lucas" -}}
 
     {{- if gt $index 0 }}, {{ end -}}
-    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
-      {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
-      {{- if .RelPermalink -}}
-        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
-      {{- else -}}
-        {{ .LinkTitle }}
-      {{- end -}}
+    <span {{ if eq .LinkTitle $my_name }}class="author-highlighted"{{ end }}>
+      {{ if eq .LinkTitle $my_name }}
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ else }}
+         {{ .LinkTitle }}
+      {{ end }}
     </span>
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
