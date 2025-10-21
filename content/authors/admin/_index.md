@@ -8,7 +8,7 @@ education:
   - course: Bachelor's Psychology (Honor's)
     institution:  California State University, Northridge
     year: 2014
-email: lucas.tawaun@gene.com
+email: tawaunl@gmail.com
 highlight_name: true
 interests:
 - Bioinformatics
@@ -21,7 +21,7 @@ role: Postdoctoral Fellow
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:lucas.tawaun@gene.com
+  link: mailto:tawaunl@gmail.com
 - display:
     header: yes
   icon: twitter
