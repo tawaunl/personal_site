@@ -1,0 +1,37 @@
+# GLOBAL HEADERS (Applied to all content on your site)
+# We set this to prevent embedding of your whole site on other domains,
+# but we allow embedding on your own domain.
+/*
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: frame-ancestors 'self'
+
+# ----------------------------------------------------------------------
+# FIX FOR EMBEDDED PDF (CV)
+# ----------------------------------------------------------------------
+
+# We target the specific path of the CV page to ensure the iframe is allowed.
+# Replace '/cv/' with the exact URL path of your CV page if it is different.
+/cv/
+  X-Frame-Options: ALLOW
+  
+# OPTIONAL: Apply to the PDF file itself just in case. 
+# Replace '/uploads/my-cv.pdf' with your actual PDF path.
+/uploads/my-cv.pdf
+  Content-Type: application/pdf
+
+# If the above doesn't work, use a more permissive header for the CV page.
+# This might be necessary if the X-Frame-Options is being applied strangely.
+/cv/
+  Content-Security-Policy: frame-ancestors 'self' *
+  
+# ----------------------------------------------------------------------
+# STANDARD RECOMMENDED HEADERS (Optional, but good practice)
+# ----------------------------------------------------------------------
+
+# Force all assets to be served with HTTPS (Good for security and SEO)
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# Prevent mime sniffing attacks
+/*
+  X-Content-Type-Options: nosniff
