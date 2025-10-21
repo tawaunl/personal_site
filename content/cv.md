@@ -12,4 +12,9 @@ design:
   columns: '1'
 ---
 
-<iframe src="/uploads/TawaunLucasCV_FULL.pdf" width="100%" height="1000px" border="none"></iframe>
+<object data="/uploads/TawaunLucasCV_FULL.pdf" type="application/pdf" width="100%" height="1000px">
+    <p>
+        Your browser does not support PDF embedding. 
+        You can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
+    </p>
+</object>
