@@ -12,4 +12,4 @@ design:
   columns: '1'
 ---
 
-<iframe src="/cv/TawaunLucasCV_FULL.pdf" width="100%" height="1000px"></iframe>
+<iframe src="/uploads/TawaunLucasCV_FULL.pdf" width="100%" height="1000px" border="none"></iframe>
