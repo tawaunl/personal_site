@@ -112,13 +112,29 @@ design:
     <div class="timeline">
         <div class="entry experience">
             <div class="content">
+                <div class="title">Senior Computational Biologist</div>
+                <div class="company">Biohub (Chan Zuckerberg Initiative)</div>
+                <div class="dates">November 2025 - Present</div>
+                <div class="summary">
+                As a Senior Computational Biologist, I work at the intersection of biology research and AI/ML model 
+                development to build scientific products and scalable computational workflows for biomedical research. 
+                I address biological questions through applying models and developing computational workflows, working 
+                closely with teams of scientists, engineers, and product staff. My responsibilities include partnering 
+                with cross-functional teams, working with community researchers and external partners, making recommendations 
+                to product teams, and designing benchmarking and evaluation studies. I focus on ensuring our products are 
+                scientifically valid and usable.
+                </div>
+            </div>
+        </div>
+        <div class="entry experience">
+            <div class="content">
                 <div class="title">Postdoctoral Fellow</div>
                 <div class="company">Genentech, Inc.</div>
-                <div class="dates">April 2021- Present</div>
+                <div class="dates">April 2021 - November 2025</div>
                 <div class="summary">
-                As a postdoctoral researcher, my focus is on computational biology, 
-                particularly examining the diverse functions of reactive astrocytes in neurodegeneration. I explore 
-                complex biological systems using computational and statistical modeling techniques. My research aims
+                As a postdoctoral researcher, my focus was on computational biology, 
+                particularly examining the diverse functions of reactive astrocytes in neurodegeneration. I explored 
+                complex biological systems using computational and statistical modeling techniques. My research aimed
                 to analyze large omics datasets to gain insights into genetic mechanisms and pathways, with an 
                 emphasis on neuroscience and immunology
                 </div>
