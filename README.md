@@ -6,7 +6,11 @@
 [![Netlify](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=flat-square&logo=netlify)](https://netlify.com)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
-**Live Site:** [tawaunlucas.com](https://tawaunlucas.com)
+### 🌐 Live Website
+
+**👉 [www.tawaunlucas.com](https://www.tawaunlucas.com)**
+
+Visit the live site to see the final product in action!
 
 ---
 
@@ -31,6 +35,8 @@
 ## 🎯 About
 
 This is the personal website of **Tawaun A. Lucas**, showcasing academic work, publications, experience, and professional accomplishments. The site is built using the [Hugo](https://gohugo.io/) static site generator with the [Wowchemy Academic](https://wowchemy.com/) theme, providing a modern, responsive design optimized for academic and professional portfolios.
+
+**🌐 View the live site:** [www.tawaunlucas.com](https://www.tawaunlucas.com)
 
 ---
 
@@ -286,7 +292,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Tawaun A. Lucas**
 
-- 🌐 Website: [tawaunlucas.com](https://tawaunlucas.com)
+- 🌐 Website: [www.tawaunlucas.com](https://www.tawaunlucas.com)
 - 📧 Email: lucas.tawaun@gene.com
 - 🐦 Twitter: [@LucasTawaun](https://twitter.com/LucasTawaun)
 - 📍 Location: San Francisco, CA
@@ -304,6 +310,8 @@ This project is open source and available under the [MIT License](LICENSE).
 <div align="center">
 
 **Made with ❤️ using Hugo and Wowchemy**
+
+🌐 **[Visit the Live Site → www.tawaunlucas.com](https://www.tawaunlucas.com)**
 
 ⭐ Star this repo if you find it helpful!
 
