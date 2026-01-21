@@ -12,9 +12,16 @@ design:
   columns: '1'
 ---
 
-<object data="/uploads/TawaunLucasCV_FULL.pdf" type="application/pdf" width="100%" height="1000px">
+<div style="width: 100%; height: 1000px; margin: 0 auto;">
+  <iframe 
+    src="/uploads/TawaunLucasCV_FULL.pdf#view=FitH" 
+    width="100%" 
+    height="100%" 
+    style="border: none; display: block;"
+    title="CV - Tawaun A. Lucas">
     <p>
-        Your browser does not support PDF embedding. 
-        You can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
+      Your browser does not support PDF embedding. 
+      You can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
     </p>
-</object>
+  </iframe>
+</div>

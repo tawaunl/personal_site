@@ -16,8 +16,9 @@
   
 # OPTIONAL: Apply to the PDF file itself just in case. 
 # Replace '/uploads/my-cv.pdf' with your actual PDF path.
-/uploads/my-cv.pdf
+/uploads/TawaunLucasCV_FULL.pdf
   Content-Type: application/pdf
+  X-Frame-Options: SAMEORIGIN
 
 # If the above doesn't work, use a more permissive header for the CV page.
 # This might be necessary if the X-Frame-Options is being applied strangely.
