@@ -13,15 +13,15 @@ design:
 ---
 
 <div style="width: 100%; height: 1000px; margin: 0 auto;">
-  <iframe 
+  <embed 
     src="/uploads/TawaunLucasCV_FULL.pdf#view=FitH" 
+    type="application/pdf"
     width="100%" 
     height="100%" 
     style="border: none; display: block;"
     title="CV - Tawaun A. Lucas">
-    <p>
-      Your browser does not support PDF embedding. 
-      You can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
-    </p>
-  </iframe>
+  <p style="margin-top: 20px; text-align: center;">
+    If the PDF does not display above, 
+    you can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
+  </p>
 </div>

@@ -31,4 +31,12 @@
   to = "https://tawaunlucas.com/:splat"
   status = 301
   force = true
+
+# Headers for PDF embedding - ensure it can be embedded
+[[headers]]
+  for = "/uploads/TawaunLucasCV_FULL.pdf"
+  [headers.values]
+    Content-Type = "application/pdf"
+    X-Frame-Options = "SAMEORIGIN"
+    # Don't set CSP here - let it inherit or be more permissive
   
