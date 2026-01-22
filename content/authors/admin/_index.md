@@ -22,12 +22,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:tawaunl@gmail.com
-- display:
-    header: yes
-  icon: twitter
-  icon_pack: fab
-  label: Find me on Twitter
-  link: https://twitter.com/LucasTawaun
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=IPSYij4AAAAJ&hl=en
