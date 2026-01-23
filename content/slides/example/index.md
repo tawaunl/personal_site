@@ -69,7 +69,7 @@ $$
 
 Make content appear incrementally
 
-```
+```text
 {{%/* fragment */%}} One {{%/* /fragment */%}}
 {{%/* fragment */%}} **Two** {{%/* /fragment */%}}
 {{%/* fragment */%}} Three {{%/* /fragment */%}}
