@@ -1,0 +1,37 @@
+name: Lint
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install markdownlint-cli
+      run: |
+        npm install -g markdownlint-cli@0.39.0
+    
+    - name: Install yamllint
+      run: |
+        pip install yamllint
+    
+    - name: Run markdownlint
+      run: |
+        markdownlint 'content/**/*.md' '*.md' --config .markdownlint.json || true
+      continue-on-error: true
+    
+    - name: Run yamllint
+      run: |
+        yamllint -c .yamllint.yml config/ || true
+      continue-on-error: true

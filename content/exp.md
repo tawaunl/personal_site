@@ -128,15 +128,25 @@ design:
         </div>
         <div class="entry experience">
             <div class="content">
+                <div class="title">Computational Biologist (Contract) - OMNI TM</div>
+                <div class="company">Genentech, Inc.</div>
+                <div class="dates">August 2025 - Present</div>
+                <div class="summary">
+                As a Computational Biologist on the OMNI Bioinformatics team, I worked within cross-functional teams to support discovery of immunology targets and development of therapeutics for Inflammatory Bowel Disease (IBD). I developed computational frameworks for the integration and analysis of multimodal data (molecular, cellular, clinical, 
+                and imaging) to enhance decision-making across the research and development pipeline. My work includes utilizing single cell and spatial transcriptomics and histology, along with
+                foundation models for target discovery, target prioritization, biomarker discovery, and biomarker development. As a result, I was able to bring forward to targets for prioritization and create workstreams to help analyze datasets in a more timely manner saving approximately 10% of time from previous workstreams.
+                </div>
+            </div>
+        </div>
+        <div class="entry experience">
+            <div class="content">
                 <div class="title">Postdoctoral Fellow</div>
                 <div class="company">Genentech, Inc.</div>
-                <div class="dates">April 2021 - November 2025</div>
+                <div class="dates">April 2021 - August 2025</div>
                 <div class="summary">
                 As a postdoctoral researcher, my focus was on computational biology, 
-                particularly examining the diverse functions of reactive astrocytes in neurodegeneration. I explored 
-                complex biological systems using computational and statistical modeling techniques. My research aimed
-                to analyze large omics datasets to gain insights into genetic mechanisms and pathways, with an 
-                emphasis on neuroscience and immunology
+                particularly examining the diverse functions of reactive astrocytes in neurodegeneration. I explored complex biological systems using computational and statistical modeling techniques. My research aimed
+                to analyze large omics datasets to gain insights into genetic mechanisms and pathways, with an emphasis on neuroscience and immunology
                 </div>
             </div>
         </div>
