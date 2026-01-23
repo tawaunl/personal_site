@@ -33,7 +33,7 @@ social:
   link: https://scholar.google.com/citations?user=IPSYij4AAAAJ&hl=en
 - icon: orcid
   icon_pack: ai
-  link: http://orcid.org/0000-0002-2273-270X 
+  link: http://orcid.org/0000-0002-2273-270X
 - icon: github
   icon_pack: fab
   link: https://github.com/tawaunl
@@ -42,7 +42,7 @@ social:
   link: https://www.linkedin.com/in/tawaun-lucas/
 # - icon: instagram
 #   icon_pack: fab
-#   link: https://www.instagram.com/shilaan01/ 
+#   link: https://www.instagram.com/shilaan01/
 # Link to a PDF of your resume/CV.
 - icon: cv
   icon_pack: ai
@@ -54,7 +54,8 @@ Hello, I'm Dr. Tawaun A. Lucas, a computational biologist with a Ph.D. in Neuros
 
 With a strong foundation in both research and education, I have a proven track record of cross-functional collaboration and impactful contributions to the scientific community. Explore my site to learn more about my research, publications, and professional journey.
 
-<center> 
+<center>
 
 #### <i class="fa fa-download" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "cv/TawaunLucasCV_FULL.pdf" "newtab" >}}Download my CV{{< /staticref >}}
-</center> 
+
+</center>

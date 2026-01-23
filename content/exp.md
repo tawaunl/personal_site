@@ -3,7 +3,7 @@ widget: blank
 headless: false
 
 # ... Put Your Section Options Here (title etc.) ...
-title: 
+title:
 subtitle:
 weight: 10  # section position on page
 
@@ -12,6 +12,7 @@ design:
   columns: '1'
 ---
 # Work Experience
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,7 +58,7 @@ design:
             transition: box-shadow 0.3s ease-in-out;
         }
         .entry:hover {
-            box-shadow: 0 4px 15px rgba(0, 0, 255, 0.5); 
+            box-shadow: 0 4px 15px rgba(0, 0, 255, 0.5);
         }
         .entry::after {
             font-family: 'Font Awesome 5 Free';
@@ -116,12 +117,12 @@ design:
                 <div class="company">Biohub (Chan Zuckerberg Initiative)</div>
                 <div class="dates">November 2025 - Present</div>
                 <div class="summary">
-                As a Senior Computational Biologist, I work at the intersection of biology research and AI/ML model 
-                development to build scientific products and scalable computational workflows for biomedical research. 
-                I address biological questions through applying models and developing computational workflows, working 
-                closely with teams of scientists, engineers, and product staff. My responsibilities include partnering 
-                with cross-functional teams, working with community researchers and external partners, making recommendations 
-                to product teams, and designing benchmarking and evaluation studies. I focus on ensuring our products are 
+                As a Senior Computational Biologist, I work at the intersection of biology research and AI/ML model
+                development to build scientific products and scalable computational workflows for biomedical research.
+                I address biological questions through applying models and developing computational workflows, working
+                closely with teams of scientists, engineers, and product staff. My responsibilities include partnering
+                with cross-functional teams, working with community researchers and external partners, making recommendations
+                to product teams, and designing benchmarking and evaluation studies. I focus on ensuring our products are
                 scientifically valid and usable.
                 </div>
             </div>
@@ -132,7 +133,7 @@ design:
                 <div class="company">Genentech, Inc.</div>
                 <div class="dates">August 2025 - Present</div>
                 <div class="summary">
-                As a Computational Biologist on the OMNI Bioinformatics team, I worked within cross-functional teams to support discovery of immunology targets and development of therapeutics for Inflammatory Bowel Disease (IBD). I developed computational frameworks for the integration and analysis of multimodal data (molecular, cellular, clinical, 
+                As a Computational Biologist on the OMNI Bioinformatics team, I worked within cross-functional teams to support discovery of immunology targets and development of therapeutics for Inflammatory Bowel Disease (IBD). I developed computational frameworks for the integration and analysis of multimodal data (molecular, cellular, clinical,
                 and imaging) to enhance decision-making across the research and development pipeline. My work includes utilizing single cell and spatial transcriptomics and histology, along with
                 foundation models for target discovery, target prioritization, biomarker discovery, and biomarker development. As a result, I was able to bring forward to targets for prioritization and create workstreams to help analyze datasets in a more timely manner saving approximately 10% of time from previous workstreams.
                 </div>
@@ -144,7 +145,7 @@ design:
                 <div class="company">Genentech, Inc.</div>
                 <div class="dates">April 2021 - August 2025</div>
                 <div class="summary">
-                As a postdoctoral researcher, my focus was on computational biology, 
+                As a postdoctoral researcher, my focus was on computational biology,
                 particularly examining the diverse functions of reactive astrocytes in neurodegeneration. I explored complex biological systems using computational and statistical modeling techniques. My research aimed
                 to analyze large omics datasets to gain insights into genetic mechanisms and pathways, with an emphasis on neuroscience and immunology
                 </div>
@@ -156,9 +157,9 @@ design:
                 <div class="company">Stanford University- School of Medicine</div>
                 <div class="dates">August 2013 – February 2021</div>
                 <div class="summary">
-                As a graduate student, I worked on several projects focused on molecular biology and 
-                transcriptomics. One project examined glial cells in the spleen and their role in neuroimmune 
-                communication during CNS injury. I designed experiments, analyzed data, and presented the findings 
+                As a graduate student, I worked on several projects focused on molecular biology and
+                transcriptomics. One project examined glial cells in the spleen and their role in neuroimmune
+                communication during CNS injury. I designed experiments, analyzed data, and presented the findings
                 at scientific conferences.
                 </div>
             </div>
@@ -170,7 +171,7 @@ design:
                 <div class="dates">June 2013 – August 2013</div>
                 <div class="summary">
                 During my internship, I gained practical experience in data science and neurology.
-                I explored GABA’s role in decision-making, created MATLAB tasks, and conducted fMRI scans. This 
+                I explored GABA’s role in decision-making, created MATLAB tasks, and conducted fMRI scans. This
                 experience laid a strong foundation for my career in neurobiology and computational science.
                 </div>
             </div>
@@ -180,6 +181,7 @@ design:
 </html>
 
 ----
+
 # Education
 
  <div class="timeline">
@@ -192,10 +194,10 @@ design:
                 Thesis on the diversity of glia in our nervous system.<br>
                 Supervised by <a href="https://med.stanford.edu/profiles/marion-buckwalter">Marion Buckwalter.</a>
                 <br>
-                <center> 
+                <center>
                 <i class="fa fa-download" aria-hidden="true" style="color:#035AA6"></i> {{< staticref
                 "FinalDissertation.pdf" "newtab" >}} Read Thesis{{< /staticref >}}
-                </center> 
+                </center>
           </div>
         </div>
         </div>

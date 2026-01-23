@@ -16,24 +16,23 @@ content:
   # Automatically link email and phone or display as text?
   autolink: true
   email: tawaunl@gmail.com
-  
+
 
   # Email form provider
   form:
     provider: netlify
     netlify:
       captcha: true
-  
+
   appointment_url: 'https://app.usemotion.com/meet/tawaun-lucas/meeting'
 
-  
+
 design:
   columns: '2'
 ---
 
-<center> 
+<center>
 
-<i class="fa fa-calendar" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "booking" "newtab" >}}Schedule a meeting with me{{< /staticref >}} 
+<i class="fa fa-calendar" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "booking" "newtab" >}}Schedule a meeting with me{{< /staticref >}}
 
 </center>
-

@@ -10,8 +10,6 @@ draft: true
 
 {{< figure src="featured.jpg" >}}
 
-
-
 {{< toc hide_on="xl" >}}
 
 Hi, and welcome to My File Drawer! Here, you will find all 13 experiments I ran through my Stanford Qualtrics account.
@@ -20,10 +18,9 @@ The phrase file-drawer problem was first coined by a distinguished psychologist 
 
 Here's a quick overview of how I got to 13 experiments in total:
 
-
 ```mermaid
 graph LR
-A[61 experiments <br> in Qualtrics account] 
+A[61 experiments <br> in Qualtrics account]
 A ==>|included|B[31 created by me]
 A -.->|excluded|C[30 shared by others]
 B ==>|included|D[19 experiments <br> with data]
@@ -42,6 +39,5 @@ style G fill:#f7f7f7,stroke:#333,stroke-width:4px
 ## File drawer overview
 
 {{< list_children >}}
-
 
 {{< cta cta_text="Continue to my file drawer" cta_link="facial" >}}

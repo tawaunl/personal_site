@@ -15,7 +15,7 @@
 /*
   X-Frame-Options: SAMEORIGIN
   Content-Security-Policy: frame-ancestors 'self'; frame-src 'self'
-  
+
 # ----------------------------------------------------------------------
 # STANDARD RECOMMENDED HEADERS (Optional, but good practice)
 # ----------------------------------------------------------------------

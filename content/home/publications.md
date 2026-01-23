@@ -39,4 +39,3 @@ design:
   view: 1
   columns: '2'
 ---
-

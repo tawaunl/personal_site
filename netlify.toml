@@ -25,7 +25,7 @@
   to = "https://tawaunlucas.com/:splat"
   status = 301
   force = true
-  
+
 [[redirects]]
   from = "http://tawaun.netlify.app/*"
   to = "https://tawaunlucas.com/:splat"
@@ -39,4 +39,3 @@
     Content-Type = "application/pdf"
     X-Frame-Options = "SAMEORIGIN"
     # Don't set CSP here - let it inherit or be more permissive
-  
