@@ -23,8 +23,8 @@ publication_types: '3'
 publication: '*bioRxiv*'
 doi: 10.1101/2025.02.12.637903
 abstract: |
-  Astrocytes play a pivotal role in central nervous system homeostasis 
-  and neuroinflammation. Despite advancements in single-cell analyses, 
+  Astrocytes play a pivotal role in central nervous system homeostasis
+  and neuroinflammation. Despite advancements in single-cell analyses,
   the heterogeneity of reactive astrocytes in neurodegenerative diseases,
   particularly across species, remains understudied. Here, we present an
   integrated atlas of 187,000 astrocytes from mouse models of Alzheimer’s (AD)

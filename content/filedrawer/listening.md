@@ -10,5 +10,3 @@ weight: 30
 Project with 5 experiments and 1,620 participants exploring the effects of active listening on social perceptions.
 
 <!--more-->
-
-

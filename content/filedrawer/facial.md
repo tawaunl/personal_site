@@ -9,5 +9,3 @@ draft: true
 Project with 6 experiments and 2,519 participants exploring the effects of facial femininity on perceptions of effort and natural talent.
 
 <!--more-->
-
-

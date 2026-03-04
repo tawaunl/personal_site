@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name:  <p style="font-size:24px"> About
+  - name: <p style="font-size:24px"> About
     url: '#about'
     weight: 10
   - name: <p style="font-size:24px"> Publications
@@ -16,15 +16,15 @@ main:
   - name: <p style="font-size:24px"> Book Me
     url: "booking"
     weight: 45
-#  - name: Talks
-#    url: 'talks/'
-#    weight: 30
+  #  - name: Talks
+  #    url: 'talks/'
+  #    weight: 30
   - name: <p style="font-size:24px"> CV
     url: "cv"
     weight: 40
-  # - name: <p style="font-size:24px"> Fitness
-  #   url: "https://pro.everfit.io/tawaun-lucas"
-  #   weight: 100
+    # - name: <p style="font-size:24px"> Fitness
+    #   url: "https://pro.everfit.io/tawaun-lucas"
+    #   weight: 100
 
 #  - name: File Drawer
 #    url: filedrawer/

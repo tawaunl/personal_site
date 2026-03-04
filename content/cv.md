@@ -3,7 +3,7 @@ widget: blank
 headless: false
 
 # ... Put Your Section Options Here (title etc.) ...
-title: 
+title:
 subtitle:
 weight: 10  # section position on page
 
@@ -12,9 +12,16 @@ design:
   columns: '1'
 ---
 
-<object data="/uploads/TawaunLucasCV_FULL.pdf" type="application/pdf" width="100%" height="1000px">
-    <p>
-        Your browser does not support PDF embedding. 
-        You can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
-    </p>
-</object>
+<div style="width: 100%; height: 1000px; margin: 0 auto;">
+  <embed
+    src="/uploads/TawaunLucasCV_FULL.pdf#view=FitH"
+    type="application/pdf"
+    width="100%"
+    height="100%"
+    style="border: none; display: block;"
+    title="CV - Tawaun A. Lucas">
+  <p style="margin-top: 20px; text-align: center;">
+    If the PDF does not display above,
+    you can <a href="/uploads/TawaunLucasCV_FULL.pdf" target="_blank" rel="noopener">download the CV</a> instead.
+  </p>
+</div>

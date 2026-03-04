@@ -20,7 +20,7 @@ twitter: 'https://twitter.com/LucasTawaun'
 
 # Contact (edit or remove options as required)
 
-email: lucas.tawaun@gene.com
+email: tawaunl@gmail.com
 address:
   city: San Francisco
   region: CA
@@ -79,7 +79,7 @@ show_related:
 reading_time: true
 section_pager: false
 docs_section_pager: true
-sharing: true
+sharing: false
 copyright_license:
   enable: false
   allow_derivatives: false

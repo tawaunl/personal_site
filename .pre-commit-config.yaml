@@ -1,0 +1,38 @@
+# Pre-commit hooks configuration
+# Install with: pip install pre-commit
+# Then run: pre-commit install
+# To run manually: pre-commit run --all-files
+
+repos:
+  # Markdown linting
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.39.0
+    hooks:
+      - id: markdownlint
+        args: [--fix]
+        exclude: ^(themes/|README.md)
+
+  # YAML linting
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.35.1
+    hooks:
+      - id: yamllint
+        args: [-c=.yamllint.yml]
+        exclude: ^themes/
+
+  # Trailing whitespace and end of file fixes
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^(themes/|\.md$)
+      - id: end-of-file-fixer
+        exclude: ^themes/
+      - id: check-yaml
+        exclude: ^themes/
+      - id: check-json
+        exclude: ^themes/
+      - id: check-added-large-files
+        args: ['--maxkb=10000']
+      - id: check-merge-conflict
+      - id: check-case-conflict

@@ -32,11 +32,11 @@ experience:
     date_end: ''
     description: |2-
         Responsibilities include:
-        
+
         * Analysing
         * Modelling
         * Deploying
-        
+
   - title: Professor of Semiconductor Physics
     company: University X
     company_url: ''

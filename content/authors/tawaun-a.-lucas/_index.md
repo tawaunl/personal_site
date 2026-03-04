@@ -15,9 +15,9 @@ interests:
 - Neuroscience/Neuroimmunology
 - Neurodegeneration
 organizations:
-- name: Genentech Inc.
-  url: https://gene.com
-role: Postdoctoral Fellow
+- name: Biohub (Chan Zuckerberg Initiative)
+  url: https://www.czbiohub.org
+role: Senior Computational Biologist
 social:
 - icon: envelope
   icon_pack: fas
@@ -33,7 +33,7 @@ social:
   link: https://scholar.google.com/citations?user=IPSYij4AAAAJ&hl=en
 - icon: orcid
   icon_pack: ai
-  link: http://orcid.org/0000-0002-2273-270X 
+  link: http://orcid.org/0000-0002-2273-270X
 - icon: github
   icon_pack: fab
   link: https://github.com/tawaunl
@@ -42,7 +42,7 @@ social:
   link: https://www.linkedin.com/in/tawaun-lucas/
 # - icon: instagram
 #   icon_pack: fab
-#   link: https://www.instagram.com/shilaan01/ 
+#   link: https://www.instagram.com/shilaan01/
 # Link to a PDF of your resume/CV.
 - icon: cv
   icon_pack: ai
@@ -50,11 +50,12 @@ social:
 superuser: yes
 ---
 
-Hello, I'm Dr. Tawaun A. Lucas, a computational biologist with a Ph.D. in Neuroscience from Stanford University. Currently, I am a postdoctoral fellow at Genentech, where I specialize in spatial transcriptomics, neuroimmunology, neurodegeneration, and machine learning. My work is driven by a passion for multi-omics analysis and biomarker development, leveraging advanced computational methodologies to innovate in precision medicine.
+Hello, I'm Dr. Tawaun A. Lucas, a computational biologist with a Ph.D. in Neuroscience from Stanford University. Currently, I am a Senior Computational Biologist at Biohub (formerly Chan Zuckerberg Initiative), where I work at the intersection of biology research and AI/ML model development to build scientific products and scalable computational workflows for biomedical research. My work focuses on addressing biological questions through applying models and developing computational workflows, to drive translational impact within human biology, immunology, and disease biology. I collaborate with teams of scientists, engineers, and product staff to ensure scientific validity and usability of computational biology tools.
 
 With a strong foundation in both research and education, I have a proven track record of cross-functional collaboration and impactful contributions to the scientific community. Explore my site to learn more about my research, publications, and professional journey.
 
-<center> 
+<center>
 
 #### <i class="fa fa-download" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "cv/TawaunLucasCV_FULL.pdf" "newtab" >}}Download my CV{{< /staticref >}}
-</center> 
+
+</center>
