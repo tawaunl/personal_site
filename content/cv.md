@@ -14,7 +14,7 @@ design:
 
 <div style="width: 100%; height: 1000px; margin: 0 auto;">
   <embed
-    src="/uploads/TawaunLucasCV_FULL.pdf#view=FitH"
+    src="/uploads/TawaunLucasCV_FULL.pdf#view=FitH&pagemode=none&navpanes=0"
     type="application/pdf"
     width="100%"
     height="100%"
