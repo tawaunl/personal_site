@@ -10,3 +10,6 @@ Thumbs.db
 /public/
 /resources/
 static/cv/archive
+
+# Local Hugo binary used for previewing (not needed for Netlify builds)
+/.tools/
