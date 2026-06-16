@@ -14,5 +14,5 @@ design:
 ---
 
 <!-- Reclaim embed begin -->
-<iframe src="https://meet.reclaimai.com/e/a17be6fa-3a8e-4df7-965d-90d8896b71b0" width="100%" height="1000px" style="outline:none;border:none"></iframe>
+<div><script src="https://meet.reclaimai.com/scripts/embed-scheduling-link.0.x.x.js" data-id="a17be6fa-3a8e-4df7-965d-90d8896b71b0" data-redirect="NONE"></script></div>
 <!-- Reclaim embed end -->
