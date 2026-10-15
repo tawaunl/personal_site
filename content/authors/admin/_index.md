@@ -15,9 +15,9 @@ interests:
 - Neuroscience/Neuroimmunology
 - Neurodegeneration
 organizations:
-- name: LatchBio
-  url: https://latch.bio
-role: Senior Computational Biologist, Spatial Omics
+- name: Calico Life Sciences
+  url: https://www.calicolabs.com
+role: Senior Scientist, Translational Data Science
 social:
 - icon: envelope
   icon_pack: fas
@@ -47,7 +47,7 @@ social:
 superuser: yes
 ---
 
-Hello, I'm Dr. Tawaun A. Lucas, a computational biologist with a Ph.D. in Neuroscience from Stanford University. Currently, I am a Senior Computational Biologist, Spatial Omics at LatchBio in San Francisco, CA, where I work at the intersection of biology research and AI/ML model development to build scientific products and scalable computational workflows for biomedical research. My work focuses on addressing biological questions through applying models and developing computational workflows, to drive translational impact within human biology, immunology, and disease biology. I collaborate with teams of scientists, engineers, and product staff to ensure scientific validity and usability of computational biology tools.
+Hello, I'm Dr. Tawaun A. Lucas, a computational biologist with a Ph.D. in Neuroscience from Stanford University. I'm currently a Senior Scientist in Translational Data Science at Calico Life Sciences in South San Francisco, CA, where I lead single-cell meta-analyses of glial stress across Parkinson's, Alzheimer's, and multiple sclerosis cohorts to identify biomarkers, define patient subgroups, and evaluate therapeutic targets. My work applies AI/ML and scalable computational workflows to single-cell and spatial multi-omic data in neurodegeneration and immunology, and I partner closely with wet-lab scientists to carry computational findings into experimental validation. Previously, I built and benchmarked AI tools for single-cell and spatial analysis at LatchBio and Biohub (formerly the Chan Zuckerberg Initiative), and at Genentech I created a cross-disease atlas of human and mouse astrocytes and led the development of spatial transcriptomics pipelines.
 
 With a strong foundation in both research and education, I have a proven track record of cross-functional collaboration and impactful contributions to the scientific community. Explore my site to learn more about my research, publications, and professional journey.
 
