@@ -13,3 +13,7 @@ static/cv/archive
 
 # Local Hugo binary used for previewing (not needed for Netlify builds)
 /.tools/
+
+# CV is downloaded from tawaunl/ResumeCV at build time (scripts/fetch-cv.sh)
+static/uploads/TawaunLucasCV_FULL.pdf
+static/cv/TawaunLucasCV_FULL.pdf

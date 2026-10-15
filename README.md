@@ -154,13 +154,25 @@ This site is configured for automatic deployment on Netlify:
 
 1. **Connect your repository** to Netlify
 2. **Build settings:**
-   - Build command: `hugo --gc --minify -b $URL`
+   - Build command: `bash scripts/fetch-cv.sh && hugo --gc --minify -b $URL`
    - Publish directory: `public`
    - Hugo version: `0.83.1`
 
 3. **Environment variables:**
    - `HUGO_VERSION`: `0.83.1`
    - `HUGO_ENABLEGITINFO`: `true`
+   - `RESUME_CV_TOKEN` (set in the Netlify UI, not in `netlify.toml`): a
+     fine-grained GitHub token with read-only **Contents** access to
+     `tawaunl/ResumeCV`
+
+### CV
+
+The CV is not stored in this repo. Every build runs `scripts/fetch-cv.sh`,
+which downloads `FullResume.pdf` from
+[tawaunl/ResumeCV](https://github.com/tawaunl/ResumeCV) into
+`static/uploads/` and `static/cv/`. The build fails if the download fails or
+the file isn't a complete PDF, so a bad CV is never published. For local
+previews, run `bash scripts/fetch-cv.sh` first (it uses your `gh` login).
 
 ### Manual Deployment
 
